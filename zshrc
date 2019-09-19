@@ -84,7 +84,7 @@ if type cargo >/dev/null 2>&1; then
 fi
 
 if [ -n "$SSH_CLIENT" ] || [ -n "$SSH_TTY" ]; then
-    PROMPT="%{$fg_bold[red]%}(%M) ${PROMPT}"
+    PROMPT="%{$fg_bold[magenta]%}(%M) ${PROMPT}"
 fi
 
 # Machine specific
